@@ -1,0 +1,21 @@
+/* put your css code here */
+
+
+div {
+    display: flex; 
+    flex-direction: horizontal; 
+
+}
+
+
+img {
+    object-fit: cover; 
+}
+
+div.Mammals {
+    display: none; 
+}
+
+div.Birds {
+    display: none; 
+}
