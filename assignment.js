@@ -1,9 +1,9 @@
 // Tabbed navigation functionality
 const openCategory = (animalCategory) => {
-    let i;
+    let index;
     const categories = document.getElementsByClassName("animalCategory");
-    for (i = 0; i < categories.length; i++) {
-       categories[i].style.display = "none";  
+    for (index = 0; index < categories.length; index++) {
+       categories[index].style.display = "none";  
     }
     document.getElementById(animalCategory).style.display = "block";  
 }
